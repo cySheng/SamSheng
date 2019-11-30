@@ -5,6 +5,7 @@ module.exports = {
     author: `Samantha Lau & Chang Yu Sheng`,
   },
   plugins: [
+    `gatsby-plugin-sass`,
     {
       resolve: "gatsby-source-wordpress",
       options: {

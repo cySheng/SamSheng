@@ -8,6 +8,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+@media (orientation: landscape) and (min-width: 1000px) {
+  main {
+    max-width: 900px;
+    margin: auto;
+  }
+}
 article,
 aside,
 details,
