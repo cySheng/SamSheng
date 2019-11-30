@@ -1,6 +1,10 @@
 .header {
   background: #3e5043;
-  padding: 1rem 0;
+  padding: 1rem;
+
+  @media (orientation: landscape) and (min-width: 1000px) {
+    padding: 1rem 0;
+  }
 
   h1 {
     margin: 0;
