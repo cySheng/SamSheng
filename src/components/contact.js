@@ -1,6 +1,6 @@
 import PropTypes from "prop-types"
 import React from "react"
-import styles from "./contact.module.scss"
+import styles from "../styles/contact.module.scss"
 
 const Contact = () => (
   <section className={styles.contact}>

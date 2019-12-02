@@ -5,12 +5,12 @@ import Layout from "../components/layout"
 import ShengAvatar from "../components/ShengAvatar"
 import SEO from "../components/seo"
 import Contact from "../components/contact"
-import indexStyles from "./index.module.scss"
+import styles from "../styles/home.module.scss"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <section className={indexStyles.intro}>
+    <section className={styles.intro}>
       <div>
         <h1>Hi, I'm Sammie</h1>
         <p>A front-end developer.</p>
