@@ -5,6 +5,14 @@ module.exports = {
     author: `Samantha Lau & Chang Yu Sheng`,
   },
   plugins: [
+    {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        google: {
+          families: ["Bebas Neue", "Montserrat"],
+        },
+      },
+    },
     `gatsby-plugin-sass`,
     {
       resolve: "gatsby-source-wordpress",
